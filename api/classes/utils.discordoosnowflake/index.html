@@ -777,13 +777,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#binarytoid" class="md-nav__link">
-    binaryToID
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#deconstruct" class="md-nav__link">
     deconstruct
   </a>
@@ -2014,13 +2007,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#binarytoid" class="md-nav__link">
-    binaryToID
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#deconstruct" class="md-nav__link">
     deconstruct
   </a>
@@ -2074,7 +2060,6 @@
 </ul>
 <h3 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">#</a></h3>
 <ul>
-<li><a href="./#binarytoid">binaryToID</a></li>
 <li><a href="./#deconstruct">deconstruct</a></li>
 <li><a href="./#generate">generate</a></li>
 <li><a href="./#generatepartial">generatePartial</a></li>
@@ -2086,40 +2071,11 @@
 <h3 id="sharding_manager_id">SHARDING_MANAGER_ID<a class="headerlink" href="#sharding_manager_id" title="Permanent link">#</a></h3>
 <p>▪ <code>Static</code> <code>Readonly</code> <strong>SHARDING_MANAGER_ID</strong>: <code>1111111111</code></p>
 <h4 id="defined-in">Defined in<a class="headerlink" href="#defined-in" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/27c7d68/src/utils/DiscordooSnowflake.ts#L12">src/utils/DiscordooSnowflake.ts:12</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/028cdfc/src/utils/DiscordooSnowflake.ts#L12">src/utils/DiscordooSnowflake.ts:12</a></p>
 <h2 id="methods_1">Methods<a class="headerlink" href="#methods_1" title="Permanent link">#</a></h2>
-<h3 id="binarytoid">binaryToID<a class="headerlink" href="#binarytoid" title="Permanent link">#</a></h3>
-<p>▸ <code>Static</code> <strong>binaryToID</strong>(<code>str</code>, <code>base?</code>): <code>string</code></p>
-<h4 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-<th align="left">Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>str</code></td>
-<td align="left"><code>string</code></td>
-<td align="left"><code>undefined</code></td>
-</tr>
-<tr>
-<td align="left"><code>base</code></td>
-<td align="left"><code>number</code> | <code>bigint</code></td>
-<td align="left"><code>2</code></td>
-</tr>
-</tbody>
-</table>
-<h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">#</a></h4>
-<p><code>string</code></p>
-<h4 id="defined-in_1">Defined in<a class="headerlink" href="#defined-in_1" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/27c7d68/src/utils/DiscordooSnowflake.ts#L109">src/utils/DiscordooSnowflake.ts:109</a></p>
-<hr />
 <h3 id="deconstruct">deconstruct<a class="headerlink" href="#deconstruct" title="Permanent link">#</a></h3>
 <p>▸ <code>Static</code> <strong>deconstruct</strong>(<code>snowflake</code>): <code>DeconstructedDiscordooSnowflake</code></p>
-<h4 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">#</a></h4>
+<h4 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h4>
 <table>
 <thead>
 <tr>
@@ -2134,10 +2090,10 @@
 </tr>
 </tbody>
 </table>
-<h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">#</a></h4>
+<h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">#</a></h4>
 <p><code>DeconstructedDiscordooSnowflake</code></p>
-<h4 id="defined-in_2">Defined in<a class="headerlink" href="#defined-in_2" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/27c7d68/src/utils/DiscordooSnowflake.ts#L83">src/utils/DiscordooSnowflake.ts:83</a></p>
+<h4 id="defined-in_1">Defined in<a class="headerlink" href="#defined-in_1" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Discordoo/discordoo/blob/028cdfc/src/utils/DiscordooSnowflake.ts#L77">src/utils/DiscordooSnowflake.ts:77</a></p>
 <hr />
 <h3 id="generate">generate<a class="headerlink" href="#generate" title="Permanent link">#</a></h3>
 <p>▸ <code>Static</code> <strong>generate</strong>(<code>shardID</code>, <code>workerID?</code>, <code>timestamp?</code>): <code>string</code></p>
@@ -2163,7 +2119,7 @@ getting a increment:
 <p>Why?
 Discordoo uses DiscordooSnowflake to identify ipc connections and messages.
 So, if your bot has more than 2,147,483,647 shards, you will unfortunately not be able to use Discordoo.</p>
-<h4 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">#</a></h4>
+<h4 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">#</a></h4>
 <table>
 <thead>
 <tr>
@@ -2190,14 +2146,14 @@ So, if your bot has more than 2,147,483,647 shards, you will unfortunately not b
 </tr>
 </tbody>
 </table>
-<h4 id="returns_2">Returns<a class="headerlink" href="#returns_2" title="Permanent link">#</a></h4>
+<h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">#</a></h4>
 <p><code>string</code></p>
-<h4 id="defined-in_3">Defined in<a class="headerlink" href="#defined-in_3" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/27c7d68/src/utils/DiscordooSnowflake.ts#L40">src/utils/DiscordooSnowflake.ts:40</a></p>
+<h4 id="defined-in_2">Defined in<a class="headerlink" href="#defined-in_2" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Discordoo/discordoo/blob/028cdfc/src/utils/DiscordooSnowflake.ts#L40">src/utils/DiscordooSnowflake.ts:40</a></p>
 <hr />
 <h3 id="generatepartial">generatePartial<a class="headerlink" href="#generatepartial" title="Permanent link">#</a></h3>
 <p>▸ <code>Static</code> <strong>generatePartial</strong>(<code>timestamp?</code>): <code>string</code></p>
-<h4 id="parameters_3">Parameters<a class="headerlink" href="#parameters_3" title="Permanent link">#</a></h4>
+<h4 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">#</a></h4>
 <table>
 <thead>
 <tr>
@@ -2212,10 +2168,10 @@ So, if your bot has more than 2,147,483,647 shards, you will unfortunately not b
 </tr>
 </tbody>
 </table>
-<h4 id="returns_3">Returns<a class="headerlink" href="#returns_3" title="Permanent link">#</a></h4>
+<h4 id="returns_2">Returns<a class="headerlink" href="#returns_2" title="Permanent link">#</a></h4>
 <p><code>string</code></p>
-<h4 id="defined-in_4">Defined in<a class="headerlink" href="#defined-in_4" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/27c7d68/src/utils/DiscordooSnowflake.ts#L75">src/utils/DiscordooSnowflake.ts:75</a></p>
+<h4 id="defined-in_3">Defined in<a class="headerlink" href="#defined-in_3" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Discordoo/discordoo/blob/028cdfc/src/utils/DiscordooSnowflake.ts#L69">src/utils/DiscordooSnowflake.ts:69</a></p>
                 
                   
                 
