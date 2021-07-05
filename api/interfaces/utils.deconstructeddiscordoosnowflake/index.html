@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://docs.discordoo.xyz/api/interfaces/sharding.shardingmanageroptions/">
+        <link rel="canonical" href="https://docs.discordoo.xyz/api/interfaces/utils.deconstructeddiscordoosnowflake/">
       
       <link rel="icon" href="../../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
     
     
       
-        <title>ShardingManagerOptions - Discordoo Guide</title>
+        <title>DeconstructedDiscordooSnowflake - Discordoo Guide</title>
       
     
     
@@ -83,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#interface-shardingmanageroptions" class="md-skip">
+        <a href="#interface-deconstructeddiscordoosnowflake" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ShardingManagerOptions
+              DeconstructedDiscordooSnowflake
             
           </span>
         </div>
@@ -1522,6 +1522,30 @@
             
   
   
+  
+    <li class="md-nav__item">
+      <a href="../sharding.shardingmanageroptions/" class="md-nav__link">
+        ShardingManagerOptions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sharding.workersshardingoptions/" class="md-nav__link">
+        WorkersShardingOptions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
     
   
   
@@ -1534,12 +1558,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          ShardingManagerOptions
+          DeconstructedDiscordooSnowflake
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        ShardingManagerOptions
+        DeconstructedDiscordooSnowflake
       </a>
       
         
@@ -1585,57 +1609,36 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#clusters" class="md-nav__link">
-    clusters
+  <a href="#date" class="md-nav__link">
+    date
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#file" class="md-nav__link">
-    file
+  <a href="#increment" class="md-nav__link">
+    increment
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#machines" class="md-nav__link">
-    machines
+  <a href="#shardid" class="md-nav__link">
+    shardID
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#mode" class="md-nav__link">
-    mode
+  <a href="#timestamp" class="md-nav__link">
+    timestamp
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#processes" class="md-nav__link">
-    processes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#shards" class="md-nav__link">
-    shards
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    type
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#workers" class="md-nav__link">
-    workers
+  <a href="#workerid" class="md-nav__link">
+    workerID
   </a>
   
 </li>
@@ -1649,30 +1652,6 @@
   
 </nav>
       
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sharding.workersshardingoptions/" class="md-nav__link">
-        WorkersShardingOptions
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../utils.deconstructeddiscordoosnowflake/" class="md-nav__link">
-        DeconstructedDiscordooSnowflake
-      </a>
     </li>
   
 
@@ -1958,57 +1937,36 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#clusters" class="md-nav__link">
-    clusters
+  <a href="#date" class="md-nav__link">
+    date
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#file" class="md-nav__link">
-    file
+  <a href="#increment" class="md-nav__link">
+    increment
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#machines" class="md-nav__link">
-    machines
+  <a href="#shardid" class="md-nav__link">
+    shardID
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#mode" class="md-nav__link">
-    mode
+  <a href="#timestamp" class="md-nav__link">
+    timestamp
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#processes" class="md-nav__link">
-    processes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#shards" class="md-nav__link">
-    shards
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    type
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#workers" class="md-nav__link">
-    workers
+  <a href="#workerid" class="md-nav__link">
+    workerID
   </a>
   
 </li>
@@ -2031,61 +1989,43 @@
               
                 
                 
-                <p><a href="../../">Discordoo</a> / <a href="../../modules/">Modules</a> / <a href="../../modules/sharding/">sharding</a> / ShardingManagerOptions</p>
-<h1 id="interface-shardingmanageroptions">Interface: ShardingManagerOptions<a class="headerlink" href="#interface-shardingmanageroptions" title="Permanent link">#</a></h1>
-<p><a href="../../modules/sharding/">sharding</a>.ShardingManagerOptions</p>
+                <p><a href="../../">Discordoo</a> / <a href="../../modules/">Modules</a> / <a href="../../modules/utils/">utils</a> / DeconstructedDiscordooSnowflake</p>
+<h1 id="interface-deconstructeddiscordoosnowflake">Interface: DeconstructedDiscordooSnowflake<a class="headerlink" href="#interface-deconstructeddiscordoosnowflake" title="Permanent link">#</a></h1>
+<p><a href="../../modules/utils/">utils</a>.DeconstructedDiscordooSnowflake</p>
 <h2 id="table-of-contents">Table of contents<a class="headerlink" href="#table-of-contents" title="Permanent link">#</a></h2>
 <h3 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">#</a></h3>
 <ul>
-<li><a href="./#clusters">clusters</a></li>
-<li><a href="./#file">file</a></li>
-<li><a href="./#machines">machines</a></li>
-<li><a href="./#mode">mode</a></li>
-<li><a href="./#processes">processes</a></li>
-<li><a href="./#shards">shards</a></li>
-<li><a href="./#type">type</a></li>
-<li><a href="./#workers">workers</a></li>
+<li><a href="./#date">date</a></li>
+<li><a href="./#increment">increment</a></li>
+<li><a href="./#shardid">shardID</a></li>
+<li><a href="./#timestamp">timestamp</a></li>
+<li><a href="./#workerid">workerID</a></li>
 </ul>
 <h2 id="properties_1">Properties<a class="headerlink" href="#properties_1" title="Permanent link">#</a></h2>
-<h3 id="clusters">clusters<a class="headerlink" href="#clusters" title="Permanent link">#</a></h3>
-<p>• <code>Optional</code> <strong>clusters</strong>: <a href="../sharding.clustersshardingoptions/"><code>ClustersShardingOptions</code></a></p>
+<h3 id="date">date<a class="headerlink" href="#date" title="Permanent link">#</a></h3>
+<p>• <strong>date</strong>: <code>Date</code></p>
 <h4 id="defined-in">Defined in<a class="headerlink" href="#defined-in" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/sharding/interfaces/manager/options/ShardingManagerOptions.ts#L17">src/sharding/interfaces/manager/options/ShardingManagerOptions.ts:17</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/utils/interfaces/DeconstructedSnowflake.ts#L6">src/utils/interfaces/DeconstructedSnowflake.ts:6</a></p>
 <hr />
-<h3 id="file">file<a class="headerlink" href="#file" title="Permanent link">#</a></h3>
-<p>• <strong>file</strong>: <code>string</code></p>
+<h3 id="increment">increment<a class="headerlink" href="#increment" title="Permanent link">#</a></h3>
+<p>• <strong>increment</strong>: <code>number</code></p>
 <h4 id="defined-in_1">Defined in<a class="headerlink" href="#defined-in_1" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/sharding/interfaces/manager/options/ShardingManagerOptions.ts#L12">src/sharding/interfaces/manager/options/ShardingManagerOptions.ts:12</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/utils/interfaces/DeconstructedSnowflake.ts#L5">src/utils/interfaces/DeconstructedSnowflake.ts:5</a></p>
 <hr />
-<h3 id="machines">machines<a class="headerlink" href="#machines" title="Permanent link">#</a></h3>
-<p>• <code>Optional</code> <strong>machines</strong>: <a href="../sharding.machinesshardingoptions/"><code>MachinesShardingOptions</code></a></p>
+<h3 id="shardid">shardID<a class="headerlink" href="#shardid" title="Permanent link">#</a></h3>
+<p>• <strong>shardID</strong>: <code>number</code></p>
 <h4 id="defined-in_2">Defined in<a class="headerlink" href="#defined-in_2" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/sharding/interfaces/manager/options/ShardingManagerOptions.ts#L14">src/sharding/interfaces/manager/options/ShardingManagerOptions.ts:14</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/utils/interfaces/DeconstructedSnowflake.ts#L4">src/utils/interfaces/DeconstructedSnowflake.ts:4</a></p>
 <hr />
-<h3 id="mode">mode<a class="headerlink" href="#mode" title="Permanent link">#</a></h3>
-<p>• <strong>mode</strong>: <a href="../../enums/core.constants.shardingmodes/"><code>ShardingModes</code></a></p>
+<h3 id="timestamp">timestamp<a class="headerlink" href="#timestamp" title="Permanent link">#</a></h3>
+<p>• <strong>timestamp</strong>: <code>number</code></p>
 <h4 id="defined-in_3">Defined in<a class="headerlink" href="#defined-in_3" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/sharding/interfaces/manager/options/ShardingManagerOptions.ts#L9">src/sharding/interfaces/manager/options/ShardingManagerOptions.ts:9</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/utils/interfaces/DeconstructedSnowflake.ts#L2">src/utils/interfaces/DeconstructedSnowflake.ts:2</a></p>
 <hr />
-<h3 id="processes">processes<a class="headerlink" href="#processes" title="Permanent link">#</a></h3>
-<p>• <code>Optional</code> <strong>processes</strong>: <a href="../sharding.processesshardingoptions/"><code>ProcessesShardingOptions</code></a></p>
+<h3 id="workerid">workerID<a class="headerlink" href="#workerid" title="Permanent link">#</a></h3>
+<p>• <strong>workerID</strong>: <code>number</code></p>
 <h4 id="defined-in_4">Defined in<a class="headerlink" href="#defined-in_4" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/sharding/interfaces/manager/options/ShardingManagerOptions.ts#L15">src/sharding/interfaces/manager/options/ShardingManagerOptions.ts:15</a></p>
-<hr />
-<h3 id="shards">shards<a class="headerlink" href="#shards" title="Permanent link">#</a></h3>
-<p>• <strong>shards</strong>: <a href="../../modules/core/#shardlistresolvable"><code>ShardListResolvable</code></a></p>
-<h4 id="defined-in_5">Defined in<a class="headerlink" href="#defined-in_5" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/sharding/interfaces/manager/options/ShardingManagerOptions.ts#L11">src/sharding/interfaces/manager/options/ShardingManagerOptions.ts:11</a></p>
-<hr />
-<h3 id="type">type<a class="headerlink" href="#type" title="Permanent link">#</a></h3>
-<p>• <code>Optional</code> <strong>type</strong>: <a href="../../enums/core.constants.shardingmanagertypes/"><code>ShardingManagerTypes</code></a></p>
-<h4 id="defined-in_6">Defined in<a class="headerlink" href="#defined-in_6" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/sharding/interfaces/manager/options/ShardingManagerOptions.ts#L10">src/sharding/interfaces/manager/options/ShardingManagerOptions.ts:10</a></p>
-<hr />
-<h3 id="workers">workers<a class="headerlink" href="#workers" title="Permanent link">#</a></h3>
-<p>• <code>Optional</code> <strong>workers</strong>: <a href="../sharding.workersshardingoptions/"><code>WorkersShardingOptions</code></a></p>
-<h4 id="defined-in_7">Defined in<a class="headerlink" href="#defined-in_7" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/sharding/interfaces/manager/options/ShardingManagerOptions.ts#L16">src/sharding/interfaces/manager/options/ShardingManagerOptions.ts:16</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/dc65f73/src/utils/interfaces/DeconstructedSnowflake.ts#L3">src/utils/interfaces/DeconstructedSnowflake.ts:3</a></p>
                 
                   
                 
@@ -2107,7 +2047,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../sharding.shardingmanagerevents/" class="md-footer__link md-footer__link--prev" aria-label="Previous: ShardingManagerEvents" rel="prev">
+        <a href="../sharding.workersshardingoptions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: WorkersShardingOptions" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2116,20 +2056,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              ShardingManagerEvents
+              WorkersShardingOptions
             </div>
           </div>
         </a>
       
       
         
-        <a href="../sharding.workersshardingoptions/" class="md-footer__link md-footer__link--next" aria-label="Next: WorkersShardingOptions" rel="next">
+        <a href="../utils.validateoptions/" class="md-footer__link md-footer__link--next" aria-label="Next: ValidateOptions" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              WorkersShardingOptions
+              ValidateOptions
             </div>
           </div>
           <div class="md-footer__button md-icon">
