@@ -166,12 +166,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.discordoo.xyz/api/enums/core.constants.rolescachingpolicy/</loc>
+         <loc>https://docs.discordoo.xyz/api/enums/core.constants.restrequestmethods/</loc>
          <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.discordoo.xyz/api/enums/core.constants.shardingmanagertypes/</loc>
+         <loc>https://docs.discordoo.xyz/api/enums/core.constants.rolescachingpolicy/</loc>
          <lastmod>2021-07-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
