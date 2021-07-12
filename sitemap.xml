@@ -46,11 +46,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.discordoo.xyz/api/classes/collection.collection-1/</loc>
-         <lastmod>2021-07-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.discordoo.xyz/api/classes/core.client/</loc>
          <lastmod>2021-07-12</lastmod>
          <changefreq>daily</changefreq>
@@ -217,21 +212,6 @@
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.websocketstates/</loc>
-         <lastmod>2021-07-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.discordoo.xyz/api/interfaces/collection.collectionequaloptions/</loc>
-         <lastmod>2021-07-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.discordoo.xyz/api/interfaces/collection.collectionfilteroptions/</loc>
-         <lastmod>2021-07-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.discordoo.xyz/api/interfaces/collection.collectionrandomoptions/</loc>
          <lastmod>2021-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -457,11 +437,6 @@
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/cache/</loc>
-         <lastmod>2021-07-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.discordoo.xyz/api/modules/collection/</loc>
          <lastmod>2021-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
