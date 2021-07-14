@@ -76,7 +76,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.discordoo.xyz/api/classes/sharding.shardingclient/</loc>
+         <loc>https://docs.discordoo.xyz/api/classes/sharding.shardinginstance/</loc>
          <lastmod>2021-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -391,17 +391,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardingclientcreateoptions/</loc>
+         <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardinginstancecreateoptions/</loc>
          <lastmod>2021-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardingclientenvironment/</loc>
+         <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardinginstanceenvironment/</loc>
          <lastmod>2021-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardingclientoptions/</loc>
+         <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardinginstanceoptions/</loc>
          <lastmod>2021-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
