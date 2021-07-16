@@ -490,4 +490,34 @@
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://docs.discordoo.xyz/collection/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.discordoo.xyz/collection/modules/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.discordoo.xyz/collection/classes/Collection/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.discordoo.xyz/collection/interfaces/CollectionEqualOptions/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.discordoo.xyz/collection/interfaces/CollectionFilterOptions/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.discordoo.xyz/collection/interfaces/CollectionRandomOptions/</loc>
+         <lastmod>2021-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
