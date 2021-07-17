@@ -2,522 +2,522 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.discordoo.xyz/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/advanced-guide/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/advanced-guide/internal-utilities/snowflakes/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/advanced-guide/sharding/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/advanced-guide/sharding/internals/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/advanced-guide/sharding/machines/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/cache.defaultcacheprovider/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/core.client/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/gateway.defaultgatewayprovider/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/gateway.websocketclient/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/gateway.websocketmanager/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/sharding.ipcclient/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/sharding.ipcserver/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/sharding.shardinginstance/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/sharding.shardingmanager/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/utils.discordooerror/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/utils.discordoosnowflake/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/utils.websocketutils/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/classes/wrapper.clientbuilder/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.channelscachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.discordooproviders/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.emojiscachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.globalcachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.guildscachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.ipcevents/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.ipcopcodes/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.memberscachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.messagescachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.partialshardingmodes/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.presencescachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.restrequestmethods/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.rolescachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.shardingmodes/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.userscachingpolicy/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.websocketclientevents/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.websocketclientstates/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.websocketevents/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.websocketmanagerstates/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.websocketopcodes/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.websocketshardstatus/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/enums/core.constants.websocketstates/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.abstractcacheprovideroptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.cacheprovider/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.cacheproviderdeleteoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.cacheprovidergetoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.cacheproviderhasoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.cacheprovidersetoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.cacheprovidersizeoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.clienteventshandlers/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.clientinternals/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.clientoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.defaultclientstack/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.gatewayconnectoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.gatewayprovider/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.providerconstructor/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/core.provideroption/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/gateway.gatewayoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/gateway.websocketclientdestroyoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/gateway.websocketclientevents/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/gateway.websocketmanagerevents/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/gateway.websocketmanagerlimits/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/gateway.websocketpacket/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.childshardingmanageroptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.clustersshardingoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcclientoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcclientsendoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcpacket/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcpackets.ipcdispatchpacket/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcpackets.ipcheartbeatpacket/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcpackets.ipchellopacket/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcpackets.ipcidentifypacket/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcserveroptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipcserversendoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.ipctlsoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.machinesshardingoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.processesshardingoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardinginstancecreateoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardinginstanceenvironment/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardinginstanceoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardingmachineoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardingmanagerevents/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.shardingmanageroptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/sharding.workersshardingoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/utils.deconstructeddiscordoosnowflake/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/interfaces/utils.validateoptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/cache/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/core.constants/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/core/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/gateway/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/sharding.ipcpackets/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/sharding/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/utils/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/api/modules/wrapper/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/base-guide/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/base-guide/installing/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/base-guide/starting/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/collection/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/collection/modules/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/collection/classes/Collection/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/collection/interfaces/CollectionEqualOptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/collection/interfaces/CollectionFilterOptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.discordoo.xyz/collection/interfaces/CollectionRandomOptions/</loc>
-         <lastmod>2021-07-16</lastmod>
+         <lastmod>2021-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
