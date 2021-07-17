@@ -2098,7 +2098,7 @@
 <h2 id="quick-reference">Quick Reference<a class="headerlink" href="#quick-reference" title="Permanent link">#</a></h2>
 <ul>
 <li><a href="https://docs.discordoo.xyz/collection">Collection API Documentation</a></li>
-<li>Optionally lodash may be installed for deep equal processing</li>
+<li>Optionally lodash can be installed for deep equal processing</li>
 <li>Node.js 12.0.0 or newer required</li>
 </ul>
 <h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">#</a></h2>
@@ -2133,6 +2133,13 @@ filtered.forEach(v =&gt; console.log(v[1])) // log all values of filtered elemen
  * turns into this
  * [ [ 1, 2 ], [ 3, 4 ], [ 5, 6 ] ]
  * */
+
+const fn = (value, key, collection) =&gt; key % 2 !== 0
+
+// also you can choose in wich format return filtered values
+collection.filter(fn, { return: 'map' }) // return data stored in javascript Map
+collection.filter(fn, { return: 'collection' }) // return data stored in collection
+collection.filter(fn, { return: 'array' }) // return data stored in array (default)
 </code></pre>
 <h4 id="how-to-use-filter-option-return-for-typescript-users">How to use filter option 'return' for typescript users:<a class="headerlink" href="#how-to-use-filter-option-return-for-typescript-users" title="Permanent link">#</a></h4>
 <pre><code class="language-ts">import { Collection } from '@discordoo/collection'
@@ -2144,7 +2151,7 @@ console.log(collection.filter&lt;Map&lt;any, any&gt;&gt;(fn, { return: 'map' }) 
 console.log(collection.filter&lt;Array&lt;any&gt;&gt;   (fn, { return: 'array' })     .length)
 console.log(collection.filter(fn).length) // default to Array&lt;[ K, V ]&gt;
 </code></pre>
-<h4 id="how-to-use-collection-random">How to use collection random<a class="headerlink" href="#how-to-use-collection-random" title="Permanent link">#</a></h4>
+<h4 id="how-to-use-collection-random">How to use collection random:<a class="headerlink" href="#how-to-use-collection-random" title="Permanent link">#</a></h4>
 <pre><code class="language-ts">import { Collection } from '@discordoo/collection'
 
 const collection = new Collection()
@@ -2153,7 +2160,22 @@ collection.random() // get 1 random value from collection
 const values = collection.random(32) // get 32 random values from collection
 console.log(values) // [ value, value, value ]
 
-// get random elements, not values from collection
+// get random keys from collection
+collection.random(11, { returnType: 'keys' })
+// get random key from collection
+collection.random(undefined /* or 1 */, { returnType: 'keys' })
+</code></pre>
+<h4 id="how-to-use-collection-random-returntype-option-for-typescript-users">How to use collection random returnType option for typescript users:<a class="headerlink" href="#how-to-use-collection-random-returntype-option-for-typescript-users" title="Permanent link">#</a></h4>
+<pre><code class="language-ts">import { Collection } from '@discordoo/collection'
+
+type K = number
+type V = string
+
+const collection = new Collection&lt;K, V&gt;() // number - key, string - value
+
+collection.random&lt;K[]&gt;(5, { returnType: 'keys' }) // tell typescript that we are expect array of collection keys
+collection.random&lt;[ K, V ]&gt;(undefined, { returnType: 'blocks' }) // tell typescript that we are expect 1 block
+collection.random&lt;Array&lt;[ K, V ]&gt;&gt;(5, { returnType: 'blocks' }) // tell typescript that we are expect array of blocks
 </code></pre>
 <h2 id="djs-collection-vs-ddoo-collection-speed-tests">D.js collection VS ddoo collection speed tests<a class="headerlink" href="#djs-collection-vs-ddoo-collection-speed-tests" title="Permanent link">#</a></h2>
 <p>Discord.js is the most popular library for developing bots, so we will compare with it.
