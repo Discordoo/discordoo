@@ -13,19 +13,6 @@ $('body').mPageTransition({
 
 if (window.jQuery && window.innerWidth > 1220) {
 
-  const head = document.getElementsByTagName('head')[0]
-
-  /* const scriptElement = document.createElement('script')
-  scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js'
-  scriptElement.onreadystatechange = window.onreadystatechange
-  scriptElement.onload = window.onload
-  head.appendChild(scriptElement) */
-
-  const linkElement = document.createElement('link')
-  linkElement.rel = 'stylesheet'
-  linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css'
-  head.appendChild(linkElement)
-
   document$.subscribe(() => {
     const elements = document.getElementsByTagName('main');
 
