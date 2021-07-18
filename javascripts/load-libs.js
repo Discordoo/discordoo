@@ -1,4 +1,4 @@
-if (window.innerWidth > 1220) {
+if (window.innerWidth > 1220 && window.navigator.userAgent.toLowerCase().includes('applewebkit')) {
   const head = document.getElementsByTagName('head')[0]
 
   const linkElement = document.createElement('link')

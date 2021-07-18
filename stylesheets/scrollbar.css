@@ -1,0 +1,12 @@
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--md-default-fg-color--lighter);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--md-accent-fg-color);
+}
