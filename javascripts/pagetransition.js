@@ -11,7 +11,7 @@ $('body').mPageTransition({
 
 });*/
 
-if (window.jQuery && window.innerWidth >= 1220) {
+if (false) {
 
   document$.subscribe(() => {
     const elements = document.getElementsByTagName('main');
