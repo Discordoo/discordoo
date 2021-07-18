@@ -25,7 +25,7 @@ $(document).ready(function() {
     outClass: 'fade-out',
     inDuration: 200,
     outDuration: 200,
-    linkElement: 'a:not([target="_blank"]):not([href^="#"])',
+    linkElement: 'a:not([target="_blank"]):not([href^="#"]):not([href^="./#"])',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
     loading: true,
     loadingParentElement: 'main', //animsition wrapper element
