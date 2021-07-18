@@ -29,7 +29,7 @@ if (false) {
       outDuration: 200,
       linkElement: 'a:not([target="_blank"]):not([href*="#"])',
       // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-      loading: true,
+      loading: false,
       loadingParentElement: 'main', //animsition wrapper element
       loadingClass: 'animsition-loading',
       loadingInner: '', // e.g '<img src="loading.svg" />'
