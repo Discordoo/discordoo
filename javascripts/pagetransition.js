@@ -1,11 +1,3 @@
-document$.subscribe(() => {
-  const elements = document.getElementsByTagName('main');
-
-  for (let element of elements) {
-    if (!element.classList.contains('animsition')) element.classList.add('animsition')
-  }
-})
-
 /*$('body').mPageTransition();
 
 $('body').mPageTransition({
@@ -19,7 +11,15 @@ $('body').mPageTransition({
 
 });*/
 
-if (window.jQuery) {
+if (window.jQuery && window.innerWidth >= 1220) {
+
+  document$.subscribe(() => {
+    const elements = document.getElementsByTagName('main');
+
+    for (let element of elements) {
+      if (!element.classList.contains('animsition')) element.classList.add('animsition')
+    }
+  })
 
   $(document).ready(function() {
     $(".animsition").animsition({
