@@ -6,8 +6,32 @@
     --grey-text: #717171;
 }
 
+body::-webkit-scrollbar {
+    width: auto;
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 4px;
+    border: 5px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 10px;
+    background-color: var(--scrollbar-color);
+    color: var(--scrollbar-color)
+}
+
+body::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
 [data-md-color-scheme="ddoo-light"] {
     --md-primary-fg-color: #f68888;
+    --scrollbar-color: var(--shrimp-transparent);
 
     --md-accent-fg-color:                var(--shrimp);
     --md-accent-fg-color--transparent:   var(--shrimp-transparent);
@@ -41,6 +65,7 @@
 }
 
 [data-md-color-scheme="ddoo-oceanic"] {
+    --scrollbar-color: var(--md-default-fg-color);
     --md-default-fg-color:               hsla(0, 0%, 90%, 0.87);
     --md-default-fg-color--light:        hsla(0, 0%, 90%, 0.54);
     --md-default-fg-color--lighter:      hsla(0, 0%, 90%, 0.32);
@@ -107,6 +132,7 @@
 }
 
 [data-md-color-scheme="ddoo-dark"] {
+    --scrollbar-color: var(--md-default-fg-color--light);
     --md-default-fg-color:               hsla(0, 0%, 90%, 0.87);
     --md-default-fg-color--light:        hsla(0, 0%, 90%, 0.87);
     --md-default-fg-color--lighter:      hsla(0, 0%, 98%, 0.32);
