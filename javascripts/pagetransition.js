@@ -21,6 +21,37 @@ if (window.jQuery && window.innerWidth > 1220) {
     }
   })
 
+  function animate() {
+    $(".animsition").animsition({
+      inClass: 'fade-in',
+      outClass: 'fade-out',
+      inDuration: 200,
+      outDuration: 200,
+      linkElement: 'a:not([target="_blank"]):not([href*="#"])',
+      // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+      loading: false,
+      loadingParentElement: 'main', //animsition wrapper element
+      loadingClass: 'animsition-loading',
+      loadingInner: '', // e.g '<img src="loading.svg" />'
+      timeout: false,
+      timeoutCountdown: 5000,
+      onLoadEvent: false,
+      browser: [ 'animation-duration', '-webkit-animation-duration'],
+      // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+      // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+      overlay : false,
+      overlayClass : 'animsition-overlay-slide',
+      overlayParentElement : 'body',
+      transition: function(url){ window.location.href = url; }
+    })
+
+    $('main').animsition('in')
+  }
+
+  $(document).onload(() => {
+    animate()
+  })
+
   let baseUrl = document.location.href
 
   function observe() {
@@ -34,30 +65,7 @@ if (window.jQuery && window.innerWidth > 1220) {
 
             baseUrl = mutation.target.baseURI
 
-            $(".animsition").animsition({
-              inClass: 'fade-in',
-              outClass: 'fade-out',
-              inDuration: 200,
-              outDuration: 200,
-              linkElement: 'a:not([target="_blank"]):not([href*="#"])',
-              // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-              loading: false,
-              loadingParentElement: 'main', //animsition wrapper element
-              loadingClass: 'animsition-loading',
-              loadingInner: '', // e.g '<img src="loading.svg" />'
-              timeout: false,
-              timeoutCountdown: 5000,
-              onLoadEvent: false,
-              browser: [ 'animation-duration', '-webkit-animation-duration'],
-              // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-              // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-              overlay : false,
-              overlayClass : 'animsition-overlay-slide',
-              overlayParentElement : 'body',
-              transition: function(url){ window.location.href = url; }
-            })
-
-            $('main').animsition('in')
+            animate()
 
             observer.disconnect()
             observe()
