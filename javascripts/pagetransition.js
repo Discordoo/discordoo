@@ -21,21 +21,19 @@ if (window.jQuery && window.innerWidth > 1220) {
     }
   })
 
-  let baseUrl = ''
+  let baseUrl = document.location.href
 
   function observe() {
     const targetNode = document.querySelector('[data-md-component="main"]');
 
     const observer = new MutationObserver(mutations => {
-      console.log('муташн))')
       mutations.forEach(mutation => {
-        console.log(')))', mutation)
+
         if (mutation.type === 'attributes') {
-          console.log('))))')
-          console.log(mutation.target.baseURI, baseUrl)
           if (mutation.target.baseURI.replace(/#(.)+/g, '') !== baseUrl.replace(/#(.)+/g, '')) {
-            console.log('))))))))))))')
+
             baseUrl = mutation.target.baseURI
+
             $(".animsition").animsition({
               inClass: 'fade-in',
               outClass: 'fade-out',
@@ -60,6 +58,7 @@ if (window.jQuery && window.innerWidth > 1220) {
             })
 
             $('main').animsition('in')
+
             observer.disconnect()
             observe()
           }
