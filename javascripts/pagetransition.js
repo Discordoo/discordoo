@@ -50,7 +50,7 @@ if (window.jQuery && window.innerWidth > 1220) {
     $('main').animsition('in')
   }
 
-  let baseUrl = window.location.href
+  /*let baseUrl = window.location.href
 
   function observe() {
     const targetNode = document.querySelector('[data-md-component="main"]');
@@ -75,7 +75,7 @@ if (window.jQuery && window.innerWidth > 1220) {
     observer.observe(targetNode, { attributes: true, childList: true, subtree: true });
   }
 
-  observe()
+  observe()*/
 
 }
 
