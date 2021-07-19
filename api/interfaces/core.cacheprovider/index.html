@@ -85,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#interface-cacheproviderk-v" class="md-skip">
+        <a href="#interface-cacheprovider" class="md-skip">
           Skip to content
         </a>
       
@@ -804,7 +804,7 @@
   
     <li class="md-nav__item">
       <a href="../../enums/core.constants.ipcopcodes/" class="md-nav__link">
-        IpcOPCodes
+        IpcOpCodes
       </a>
     </li>
   
@@ -960,7 +960,7 @@
   
     <li class="md-nav__item">
       <a href="../../enums/core.constants.websocketopcodes/" class="md-nav__link">
-        WebSocketOPCodes
+        WebSocketOpCodes
       </a>
     </li>
   
@@ -1071,8 +1071,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#type-parameters" class="md-nav__link">
-    Type parameters
+  <a href="#hierarchy" class="md-nav__link">
+    Hierarchy
   </a>
   
 </li>
@@ -1129,6 +1129,13 @@
           <li class="md-nav__item">
   <a href="#has" class="md-nav__link">
     has
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#init" class="md-nav__link">
+    init
   </a>
   
 </li>
@@ -2053,8 +2060,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#type-parameters" class="md-nav__link">
-    Type parameters
+  <a href="#hierarchy" class="md-nav__link">
+    Hierarchy
   </a>
   
 </li>
@@ -2116,6 +2123,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#init" class="md-nav__link">
+    init
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#set" class="md-nav__link">
     set
   </a>
@@ -2148,29 +2162,15 @@
                 
                 
                 <p><a href="../../">Discordoo</a> / <a href="../../modules/">Modules</a> / <a href="../../modules/core/">core</a> / CacheProvider</p>
-<h1 id="interface-cacheproviderk-v">Interface: CacheProvider&lt;K, V><a class="headerlink" href="#interface-cacheproviderk-v" title="Permanent link">#</a></h1>
+<h1 id="interface-cacheprovider">Interface: CacheProvider<a class="headerlink" href="#interface-cacheprovider" title="Permanent link">#</a></h1>
 <p><a href="../../modules/core/">core</a>.CacheProvider</p>
-<p>Represents a cache provider. Custom caching modules must implement it</p>
-<p><strong><code>note</code></strong> Some implementations may use remote cache, e.g. Redis, so all the methods are async</p>
-<h2 id="type-parameters">Type parameters<a class="headerlink" href="#type-parameters" title="Permanent link">#</a></h2>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>K</code></td>
-<td align="left"><code>unknown</code></td>
-</tr>
-<tr>
-<td align="left"><code>V</code></td>
-<td align="left"><code>unknown</code></td>
-</tr>
-</tbody>
-</table>
+<p>Represents a cache provider. Custom caching providers must implement it</p>
+<p>Node: Some implementations may use remote cache, e.g. Redis, so all the methods are async</p>
+<h2 id="hierarchy">Hierarchy<a class="headerlink" href="#hierarchy" title="Permanent link">#</a></h2>
+<ul>
+<li><code>Provider</code></li>
+</ul>
+<p>↳ <strong><code>CacheProvider</code></strong></p>
 <h2 id="implemented-by">Implemented by<a class="headerlink" href="#implemented-by" title="Permanent link">#</a></h2>
 <ul>
 <li><a href="../../classes/cache.defaultcacheprovider/"><code>DefaultCacheProvider</code></a></li>
@@ -2181,13 +2181,29 @@
 <li><a href="./#delete">delete</a></li>
 <li><a href="./#get">get</a></li>
 <li><a href="./#has">has</a></li>
+<li><a href="./#init">init</a></li>
 <li><a href="./#set">set</a></li>
 <li><a href="./#size">size</a></li>
 </ul>
 <h2 id="methods_1">Methods<a class="headerlink" href="#methods_1" title="Permanent link">#</a></h2>
 <h3 id="delete">delete<a class="headerlink" href="#delete" title="Permanent link">#</a></h3>
-<p>▸ <strong>delete</strong>(<code>keyspace</code>, <code>key</code>, <code>options?</code>): <code>Promise</code>&lt;<code>boolean</code>></p>
+<p>▸ <strong>delete</strong>&lt;<code>K</code>>(<code>keyspace</code>, <code>key</code>, <code>options?</code>): <code>Promise</code>&lt;<code>boolean</code>></p>
 <p>Delete a key from cache</p>
+<h4 id="type-parameters">Type parameters<a class="headerlink" href="#type-parameters" title="Permanent link">#</a></h4>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>K</code></td>
+<td align="left"><code>string</code></td>
+</tr>
+</tbody>
+</table>
 <h4 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h4>
 <table>
 <thead>
@@ -2218,11 +2234,30 @@
 <h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<code>boolean</code>></p>
 <h4 id="defined-in">Defined in<a class="headerlink" href="#defined-in" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/731646c0/src/core/providers/cache/CacheProvider.ts#L36">core/providers/cache/CacheProvider.ts:36</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/cache/CacheProvider.ts#L38">core/providers/cache/CacheProvider.ts:38</a></p>
 <hr />
 <h3 id="get">get<a class="headerlink" href="#get" title="Permanent link">#</a></h3>
-<p>▸ <strong>get</strong>(<code>keyspace</code>, <code>key</code>, <code>options?</code>): <code>Promise</code>&lt;<code>null</code> | <code>V</code>></p>
+<p>▸ <strong>get</strong>&lt;<code>K</code>, <code>V</code>>(<code>keyspace</code>, <code>key</code>, <code>options?</code>): <code>Promise</code>&lt;<code>null</code> | <code>V</code>></p>
 <p>Get value from key</p>
+<h4 id="type-parameters_1">Type parameters<a class="headerlink" href="#type-parameters_1" title="Permanent link">#</a></h4>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>K</code></td>
+<td align="left"><code>string</code></td>
+</tr>
+<tr>
+<td align="left"><code>V</code></td>
+<td align="left"><code>any</code></td>
+</tr>
+</tbody>
+</table>
 <h4 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">#</a></h4>
 <table>
 <thead>
@@ -2253,11 +2288,26 @@
 <h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<code>null</code> | <code>V</code>></p>
 <h4 id="defined-in_1">Defined in<a class="headerlink" href="#defined-in_1" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/731646c0/src/core/providers/cache/CacheProvider.ts#L19">core/providers/cache/CacheProvider.ts:19</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/cache/CacheProvider.ts#L21">core/providers/cache/CacheProvider.ts:21</a></p>
 <hr />
 <h3 id="has">has<a class="headerlink" href="#has" title="Permanent link">#</a></h3>
-<p>▸ <strong>has</strong>(<code>keyspace</code>, <code>key</code>, <code>options?</code>): <code>Promise</code>&lt;<code>boolean</code>></p>
+<p>▸ <strong>has</strong>&lt;<code>K</code>>(<code>keyspace</code>, <code>key</code>, <code>options?</code>): <code>Promise</code>&lt;<code>boolean</code>></p>
 <p>Check if key exists in cache</p>
+<h4 id="type-parameters_2">Type parameters<a class="headerlink" href="#type-parameters_2" title="Permanent link">#</a></h4>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>K</code></td>
+<td align="left"><code>string</code></td>
+</tr>
+</tbody>
+</table>
 <h4 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">#</a></h4>
 <table>
 <thead>
@@ -2288,11 +2338,39 @@
 <h4 id="returns_2">Returns<a class="headerlink" href="#returns_2" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<code>boolean</code>></p>
 <h4 id="defined-in_2">Defined in<a class="headerlink" href="#defined-in_2" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/731646c0/src/core/providers/cache/CacheProvider.ts#L44">core/providers/cache/CacheProvider.ts:44</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/cache/CacheProvider.ts#L46">core/providers/cache/CacheProvider.ts:46</a></p>
+<hr />
+<h3 id="init">init<a class="headerlink" href="#init" title="Permanent link">#</a></h3>
+<p>▸ <strong>init</strong>(): <code>Promise</code>&lt;<code>unknown</code>></p>
+<h4 id="returns_3">Returns<a class="headerlink" href="#returns_3" title="Permanent link">#</a></h4>
+<p><code>Promise</code>&lt;<code>unknown</code>></p>
+<h4 id="inherited-from">Inherited from<a class="headerlink" href="#inherited-from" title="Permanent link">#</a></h4>
+<p>Provider.init</p>
+<h4 id="defined-in_3">Defined in<a class="headerlink" href="#defined-in_3" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/Provider.ts#L2">core/providers/Provider.ts:2</a></p>
 <hr />
 <h3 id="set">set<a class="headerlink" href="#set" title="Permanent link">#</a></h3>
-<p>▸ <strong>set</strong>(<code>keyspace</code>, <code>key</code>, <code>value</code>, <code>options?</code>): <code>Promise</code>&lt;<a href="./"><code>CacheProvider</code></a>&lt;<code>K</code>, <code>V</code>>></p>
+<p>▸ <strong>set</strong>&lt;<code>K</code>, <code>V</code>>(<code>keyspace</code>, <code>key</code>, <code>value</code>, <code>options?</code>): <code>Promise</code>&lt;<a href="./"><code>CacheProvider</code></a>></p>
 <p>Set a key to given value</p>
+<h4 id="type-parameters_3">Type parameters<a class="headerlink" href="#type-parameters_3" title="Permanent link">#</a></h4>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>K</code></td>
+<td align="left"><code>string</code></td>
+</tr>
+<tr>
+<td align="left"><code>V</code></td>
+<td align="left"><code>any</code></td>
+</tr>
+</tbody>
+</table>
 <h4 id="parameters_3">Parameters<a class="headerlink" href="#parameters_3" title="Permanent link">#</a></h4>
 <table>
 <thead>
@@ -2325,10 +2403,10 @@
 </tr>
 </tbody>
 </table>
-<h4 id="returns_3">Returns<a class="headerlink" href="#returns_3" title="Permanent link">#</a></h4>
-<p><code>Promise</code>&lt;<a href="./"><code>CacheProvider</code></a>&lt;<code>K</code>, <code>V</code>>></p>
-<h4 id="defined-in_3">Defined in<a class="headerlink" href="#defined-in_3" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/731646c0/src/core/providers/cache/CacheProvider.ts#L28">core/providers/cache/CacheProvider.ts:28</a></p>
+<h4 id="returns_4">Returns<a class="headerlink" href="#returns_4" title="Permanent link">#</a></h4>
+<p><code>Promise</code>&lt;<a href="./"><code>CacheProvider</code></a>></p>
+<h4 id="defined-in_4">Defined in<a class="headerlink" href="#defined-in_4" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/cache/CacheProvider.ts#L30">core/providers/cache/CacheProvider.ts:30</a></p>
 <hr />
 <h3 id="size">size<a class="headerlink" href="#size" title="Permanent link">#</a></h3>
 <p>▸ <strong>size</strong>(<code>keyspace?</code>, <code>options?</code>): <code>Promise</code>&lt;<code>number</code>></p>
@@ -2355,10 +2433,10 @@
 </tr>
 </tbody>
 </table>
-<h4 id="returns_4">Returns<a class="headerlink" href="#returns_4" title="Permanent link">#</a></h4>
+<h4 id="returns_5">Returns<a class="headerlink" href="#returns_5" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<code>number</code>></p>
-<h4 id="defined-in_4">Defined in<a class="headerlink" href="#defined-in_4" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/731646c0/src/core/providers/cache/CacheProvider.ts#L51">core/providers/cache/CacheProvider.ts:51</a></p>
+<h4 id="defined-in_5">Defined in<a class="headerlink" href="#defined-in_5" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/cache/CacheProvider.ts#L53">core/providers/cache/CacheProvider.ts:53</a></p>
                 
                   
                 

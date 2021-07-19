@@ -804,7 +804,7 @@
   
     <li class="md-nav__item">
       <a href="../../enums/core.constants.ipcopcodes/" class="md-nav__link">
-        IpcOPCodes
+        IpcOpCodes
       </a>
     </li>
   
@@ -960,7 +960,7 @@
   
     <li class="md-nav__item">
       <a href="../../enums/core.constants.websocketopcodes/" class="md-nav__link">
-        WebSocketOPCodes
+        WebSocketOpCodes
       </a>
     </li>
   
@@ -1203,6 +1203,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#hierarchy" class="md-nav__link">
+    Hierarchy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#implemented-by" class="md-nav__link">
     Implemented by
   </a>
@@ -1247,6 +1254,13 @@
           <li class="md-nav__item">
   <a href="#disconnect" class="md-nav__link">
     disconnect
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#init" class="md-nav__link">
+    init
   </a>
   
 </li>
@@ -2025,6 +2039,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#hierarchy" class="md-nav__link">
+    Hierarchy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#implemented-by" class="md-nav__link">
     Implemented by
   </a>
@@ -2073,6 +2094,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#init" class="md-nav__link">
+    init
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2094,6 +2122,11 @@
                 <p><a href="../../">Discordoo</a> / <a href="../../modules/">Modules</a> / <a href="../../modules/core/">core</a> / GatewayProvider</p>
 <h1 id="interface-gatewayprovider">Interface: GatewayProvider<a class="headerlink" href="#interface-gatewayprovider" title="Permanent link">#</a></h1>
 <p><a href="../../modules/core/">core</a>.GatewayProvider</p>
+<h2 id="hierarchy">Hierarchy<a class="headerlink" href="#hierarchy" title="Permanent link">#</a></h2>
+<ul>
+<li><code>Provider</code></li>
+</ul>
+<p>↳ <strong><code>GatewayProvider</code></strong></p>
 <h2 id="implemented-by">Implemented by<a class="headerlink" href="#implemented-by" title="Permanent link">#</a></h2>
 <ul>
 <li><a href="../../classes/gateway.defaultgatewayprovider/"><code>DefaultGatewayProvider</code></a></li>
@@ -2103,6 +2136,7 @@
 <ul>
 <li><a href="./#connect">connect</a></li>
 <li><a href="./#disconnect">disconnect</a></li>
+<li><a href="./#init">init</a></li>
 </ul>
 <h2 id="methods_1">Methods<a class="headerlink" href="#methods_1" title="Permanent link">#</a></h2>
 <h3 id="connect">connect<a class="headerlink" href="#connect" title="Permanent link">#</a></h3>
@@ -2125,14 +2159,23 @@
 <h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<code>unknown</code>></p>
 <h4 id="defined-in">Defined in<a class="headerlink" href="#defined-in" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/731646c0/src/core/providers/gateway/GatewayProvider.ts#L4">core/providers/gateway/GatewayProvider.ts:4</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/gateway/GatewayProvider.ts#L5">core/providers/gateway/GatewayProvider.ts:5</a></p>
 <hr />
 <h3 id="disconnect">disconnect<a class="headerlink" href="#disconnect" title="Permanent link">#</a></h3>
 <p>▸ <strong>disconnect</strong>(): <code>Promise</code>&lt;<code>unknown</code>></p>
 <h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<code>unknown</code>></p>
 <h4 id="defined-in_1">Defined in<a class="headerlink" href="#defined-in_1" title="Permanent link">#</a></h4>
-<p><a href="https://github.com/Discordoo/discordoo/blob/731646c0/src/core/providers/gateway/GatewayProvider.ts#L6">core/providers/gateway/GatewayProvider.ts:6</a></p>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/gateway/GatewayProvider.ts#L7">core/providers/gateway/GatewayProvider.ts:7</a></p>
+<hr />
+<h3 id="init">init<a class="headerlink" href="#init" title="Permanent link">#</a></h3>
+<p>▸ <strong>init</strong>(): <code>Promise</code>&lt;<code>unknown</code>></p>
+<h4 id="returns_2">Returns<a class="headerlink" href="#returns_2" title="Permanent link">#</a></h4>
+<p><code>Promise</code>&lt;<code>unknown</code>></p>
+<h4 id="inherited-from">Inherited from<a class="headerlink" href="#inherited-from" title="Permanent link">#</a></h4>
+<p>Provider.init</p>
+<h4 id="defined-in_2">Defined in<a class="headerlink" href="#defined-in_2" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Discordoo/discordoo/blob/b8e0c910/src/core/providers/Provider.ts#L2">core/providers/Provider.ts:2</a></p>
                 
                   
                 
