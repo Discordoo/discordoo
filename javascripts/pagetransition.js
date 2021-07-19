@@ -19,6 +19,8 @@ if (window.jQuery && window.innerWidth > 1220) {
     for (let element of elements) {
       if (!element.classList.contains('animsition')) element.classList.add('animsition')
     }
+
+    animate()
   })
 
   function animate() {
@@ -48,11 +50,7 @@ if (window.jQuery && window.innerWidth > 1220) {
     $('main').animsition('in')
   }
 
-  $(document).onload(() => {
-    animate()
-  })
-
-  let baseUrl = document.location.href
+  let baseUrl = window.location.href
 
   function observe() {
     const targetNode = document.querySelector('[data-md-component="main"]');
